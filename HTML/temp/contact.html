@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>HTML Lessons</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <nav><a href="../index.html">Home</a> |
+        <a href="../about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+   
+<form action="login.php" method="post"> 
+    <label for="Username">Username :</label><input type="text" id="Username" value="Rahul"><br>
+    <label for="pw">Password :</label><input id="password" name="password"><br>
+    Gender :<br>
+    Male<input type="radio" name="gender" value="male">
+    Female<input type="radio" name="gender" value="female">
+    Other<input type="radio" name="gender" value="other" checked><br>
+ 
+    <input type="checkbox" name="TC" value="yes" checked>Do you agree to T&C <br>
+    <input type="submit" value="login">
+</form>
+
+<br>
+
+   
+<form method="post">
+    Subject :
+    <select name="Subject">
+        <option value="Support">Support</option>
+        <option value="Info">Say Hello</option>
+        <option value="Billing">Billing</option>
+        <option value="Sales">Buy Someting</option>
+    </select><br>
+    <textarea name="message" rows="5" cols="50">Text that users add</textarea><br>
+    <input type="submit" value="submit">
+</form>
+
+
+
+
+
+</body>
+</html>
