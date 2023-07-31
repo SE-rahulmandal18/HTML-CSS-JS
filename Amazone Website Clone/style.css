@@ -36,7 +36,7 @@
 
 .add-first {
  color: #cccccc;
- font-size: .8rem;
+ font-size: .852rem;
  margin-left: 15px;
 }
 
@@ -54,8 +54,9 @@
 
 .nav-search {
     display: flex;
+    justify-content: space-evenly;
     background-color: pink;
-    width: 620;
+    width: 620px;
     height: 40px;
     border-radius: 4px;
 }
