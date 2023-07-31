@@ -141,3 +141,26 @@ span {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/** hero-section **/
+
+.hero-section {
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.hero-message a {
+    color: #007185;
+
+}
